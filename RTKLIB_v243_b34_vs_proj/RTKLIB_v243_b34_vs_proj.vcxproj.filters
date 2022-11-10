@@ -16,6 +16,9 @@
     <Filter Include="源文件\rcv">
       <UniqueIdentifier>{d4a1adf1-0d85-49d3-a0ed-7f142506727d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\nav">
+      <UniqueIdentifier>{c6182043-4063-4e22-8ca0-f4fa5b126ab6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\rtklib.h">
@@ -23,99 +26,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\convgpx.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\convkml.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\convrnx.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\datum.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\download.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ephemeris.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\geoid.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\gis.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ionex.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\lambda.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\options.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\pntpos.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\postpos.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ppp.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ppp_ar.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\preceph.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rcvraw.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rinex.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtcm.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtcm2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtcm3.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtcm3e.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtkcmn.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtkpos.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\rtksvr.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\sbas.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\solution.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\stream.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\streamsvr.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\tides.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\tle.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\rcv\binex.c">
       <Filter>源文件\rcv</Filter>
     </ClCompile>
@@ -146,8 +56,101 @@
     <ClCompile Include="..\src\rcv\ublox.c">
       <Filter>源文件\rcv</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\main.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="..\src\nav\convgpx.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\convkml.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\convrnx.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\datum.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\download.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\ephemeris.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\geoid.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\gis.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\ionex.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\lambda.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\main.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\options.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\pntpos.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\postpos.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\ppp.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\ppp_ar.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\preceph.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rcvraw.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rinex.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtcm.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtcm2.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtcm3.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtcm3e.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtkcmn.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtkpos.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\rtksvr.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\sbas.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\solution.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\stream.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\streamsvr.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\tides.c">
+      <Filter>源文件\nav</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nav\tle.c">
+      <Filter>源文件\nav</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

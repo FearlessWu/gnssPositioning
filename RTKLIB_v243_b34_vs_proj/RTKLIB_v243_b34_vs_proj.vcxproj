@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\work\local_repositories\RTKLIB_243b34_demo\RTKLIB_v243_b34_vs_proj\src\;$(IncludePath)</IncludePath>
+    <IncludePath>D:\work\local_repositories\RTKLIB_243b34_demo\RTKLIB_v243_b34_vs_proj\include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -134,24 +134,38 @@
     <ClInclude Include="..\src\rtklib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\convgpx.c" />
-    <ClCompile Include="..\src\convkml.c" />
-    <ClCompile Include="..\src\convrnx.c" />
-    <ClCompile Include="..\src\datum.c" />
-    <ClCompile Include="..\src\download.c" />
-    <ClCompile Include="..\src\ephemeris.c" />
-    <ClCompile Include="..\src\geoid.c" />
-    <ClCompile Include="..\src\gis.c" />
-    <ClCompile Include="..\src\ionex.c" />
-    <ClCompile Include="..\src\lambda.c" />
-    <ClCompile Include="..\src\main.c" />
-    <ClCompile Include="..\src\options.c" />
-    <ClCompile Include="..\src\pntpos.c" />
-    <ClCompile Include="..\src\postpos.c" />
-    <ClCompile Include="..\src\ppp.c" />
-    <ClCompile Include="..\src\ppp_ar.c" />
-    <ClCompile Include="..\src\preceph.c" />
-    <ClCompile Include="..\src\rcvraw.c" />
+    <ClCompile Include="..\src\nav\convgpx.c" />
+    <ClCompile Include="..\src\nav\convkml.c" />
+    <ClCompile Include="..\src\nav\convrnx.c" />
+    <ClCompile Include="..\src\nav\datum.c" />
+    <ClCompile Include="..\src\nav\download.c" />
+    <ClCompile Include="..\src\nav\ephemeris.c" />
+    <ClCompile Include="..\src\nav\geoid.c" />
+    <ClCompile Include="..\src\nav\gis.c" />
+    <ClCompile Include="..\src\nav\ionex.c" />
+    <ClCompile Include="..\src\nav\lambda.c" />
+    <ClCompile Include="..\src\nav\main.c" />
+    <ClCompile Include="..\src\nav\options.c" />
+    <ClCompile Include="..\src\nav\pntpos.c" />
+    <ClCompile Include="..\src\nav\postpos.c" />
+    <ClCompile Include="..\src\nav\ppp.c" />
+    <ClCompile Include="..\src\nav\ppp_ar.c" />
+    <ClCompile Include="..\src\nav\preceph.c" />
+    <ClCompile Include="..\src\nav\rcvraw.c" />
+    <ClCompile Include="..\src\nav\rinex.c" />
+    <ClCompile Include="..\src\nav\rtcm.c" />
+    <ClCompile Include="..\src\nav\rtcm2.c" />
+    <ClCompile Include="..\src\nav\rtcm3.c" />
+    <ClCompile Include="..\src\nav\rtcm3e.c" />
+    <ClCompile Include="..\src\nav\rtkcmn.c" />
+    <ClCompile Include="..\src\nav\rtkpos.c" />
+    <ClCompile Include="..\src\nav\rtksvr.c" />
+    <ClCompile Include="..\src\nav\sbas.c" />
+    <ClCompile Include="..\src\nav\solution.c" />
+    <ClCompile Include="..\src\nav\stream.c" />
+    <ClCompile Include="..\src\nav\streamsvr.c" />
+    <ClCompile Include="..\src\nav\tides.c" />
+    <ClCompile Include="..\src\nav\tle.c" />
     <ClCompile Include="..\src\rcv\binex.c" />
     <ClCompile Include="..\src\rcv\crescent.c" />
     <ClCompile Include="..\src\rcv\javad.c" />
@@ -162,20 +176,6 @@
     <ClCompile Include="..\src\rcv\skytraq.c" />
     <ClCompile Include="..\src\rcv\ss2.c" />
     <ClCompile Include="..\src\rcv\ublox.c" />
-    <ClCompile Include="..\src\rinex.c" />
-    <ClCompile Include="..\src\rtcm.c" />
-    <ClCompile Include="..\src\rtcm2.c" />
-    <ClCompile Include="..\src\rtcm3.c" />
-    <ClCompile Include="..\src\rtcm3e.c" />
-    <ClCompile Include="..\src\rtkcmn.c" />
-    <ClCompile Include="..\src\rtkpos.c" />
-    <ClCompile Include="..\src\rtksvr.c" />
-    <ClCompile Include="..\src\sbas.c" />
-    <ClCompile Include="..\src\solution.c" />
-    <ClCompile Include="..\src\stream.c" />
-    <ClCompile Include="..\src\streamsvr.c" />
-    <ClCompile Include="..\src\tides.c" />
-    <ClCompile Include="..\src\tle.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
